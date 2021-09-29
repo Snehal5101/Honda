@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice1</title>
+</head>
+<!--bodytag-->
+<body>
+    <!--Headertag-->
+    <header> 
+        <!--nav-->
+        <nav> 
+            <a href="#Listtag">List tag</a><br>
+            <a href="#Formtags">Form tags</a> 
+        </nav>
+    </header>
+    <br>
+    <!--Maintag-->
+    <main> 
+        <!--Section-->
+        <section id="Listtag"> 
+           <!--Article-->
+           <article> 
+              <h2>List tag</h2> 
+              <img src="http://www.codeash.com/wp-content/uploads/2019/05/List-tag-in-html.jpg" alt="listtag" width="500" height="450">
+              <p>There are two types of list tag.</p>
+                 <!--listtag-->
+                   <ol type="i"> 
+                      <li>Orded List</li>
+                      <li>Unorded List</li>
+                   </ol>
+            </article>
+         </section>
+
+         <!--Section-->
+         <section id="Formtags">
+            <!--Article-->
+            <article> 
+                <h2>Form tags</h2> 
+                <!-- form -->
+                <form action="#"> 
+                    <label for="Name">Name</label> 
+                    <input type="text" required name="Name" id="Name" placeholder="Enter your name">
+                    <br>
+                    <label for="Email">Email</label> 
+                    <input type="email" required email="Email" id="Email" placeholder="Enter your email">
+                    <br>
+                    <label for="password">Password</label>
+                    <input type="password" required password="Password" id="Password" placeholder="Enter password">
+                    <br>
+                    State<select name="State" id="state">
+                        <option value="">Select state</option>
+                        <option value="Maharastra">maharastra</option>
+                        <option value="UP">UP</option>
+                        <option value="MP">MP</option>
+                        <option value="Gujrat">Gujrat</option>
+                    </select>
+
+                    <br>
+                    Date<input type="date"  id="date" value="date">
+                    <br>
+                    <input type="color" value="color">choose a color</input>
+                    <br>
+                   Genders <input type="radio" name="Gender" id="Male">Male
+                    <input type="radio" name="Gender" id="Female">Female
+                    <br>
+                    <input type="file" name="file" id="file" value="file" checked="checkeds">
+                    <br>
+              <a href="./img/honda activa.jpg"> click here to download img </a>
+                    <br>
+                    <button type="submit">Submit</button>
+               
+                </form>
+
+            </article>
+         </section>
+    </main>
+</body>
+</html>
